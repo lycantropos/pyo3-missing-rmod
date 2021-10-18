@@ -1,0 +1,12 @@
+[package]
+name = "pyo3_missing_rmod"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "pyo3_missing_rmod"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies.pyo3]
+version = "^0.14"
+features = ["extension-module"]
